@@ -67,8 +67,5 @@ RUN ./configure
 RUN make
 RUN make install
 
-# Perform some cleanup
-# RUN yum erase gcc glibc glibc-common
-
 # Start Apache and Nagios
 CMD ["/bin/bash", "/nagios/start.sh"]
