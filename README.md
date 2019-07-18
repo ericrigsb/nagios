@@ -1,2 +1,2 @@
 # Nagios in a Docker container
-Nagios in the latest CentOS official image for experimentation and educational purposes.
+Dockerfile and start script to run Nagios in Docker for experimentation and educational purposes.
